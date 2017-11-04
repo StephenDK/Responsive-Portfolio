@@ -250,9 +250,10 @@ input[type=submit] {
       max-width: 500px; 
     }
     .main-section img {
-      width: 350px;
-      height: 350px;
-      margin: 35px;
+      width: 100%;
+      /*width: 350px;*/
+      /*height: 350px;*/
+      /*margin: 35px;*/
     }
 }
 /*end of first media query*/
@@ -261,7 +262,7 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
-    max-width: 550px;
+    /*max-width: 550px;*/
   }
   .main-section {
     max-width: 100%;
@@ -273,6 +274,11 @@ input[type=submit] {
     float: left;
     max-width: 100%;
   }
+/*Portfolio page*/
+  .work, img, h3 {
+    width: 100%;
+  }
+  
 }
 /*Third media query*/
 @media screen and (max-width: 640px) {
